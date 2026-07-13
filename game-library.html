@@ -22,106 +22,61 @@
     <!-- Main stylesheet -->
     <link rel="stylesheet" href="assets/style.css">
 </head>
+<!-- classes on body set to work with mt-auto on footer to 
+    ensure it always stays at the bottom of the page -->
 
 <body class="d-flex flex-column min-vh-100">
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-            <a class="navbar-brand fw-bold" href="index.html">Boardwalk Games</a>
-            <div class="d-flex gap-3">
-                <a class="nav-link" href="index.html">Home</a>
-                <a class="nav-link" href="game-library.html">Game Library</a>
-            </div>
-        </div>
-    </nav>
+    <div>Navigation</div>
 
-    <!-- Header -->
-    <header class="container py-5">
-        <h1>Game Library</h1>
-        <p class="lead">Browse our growing collection of games and find your next favourite.</p>
+    <!-- Header with carousel -->
+    <header class="container">
+        <div class="row">
+            <div class="col-12 col-xl-6">Game library intro text section</div>
+            <div class="col-12 col-xl-6">Carousel</div>
+        </div>
     </header>
 
+    <!-- main element to hold all key sections of the game library page,
+         it is not part of the grid structure -->
     <main>
-        <section class="container py-4">
-            <h2 class="mb-4">New Games</h2>
-            <div class="row g-4">
-                <div class="col-12 col-md-6 col-xl-3">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h3 class="h5">Catan</h3>
-                            <p>Classic strategy game for 3–4 players.</p>
-                        </div>
-                    </div>
+        <!-- New Games section -->
+        <section class="container">
+            <div class="row">
+                <div class="col-12">
+                    New Games section heading
                 </div>
-                <div class="col-12 col-md-6 col-xl-3">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h3 class="h5">Ticket to Ride</h3>
-                            <p>Easy to learn and perfect for families.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-xl-3">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h3 class="h5">Azul</h3>
-                            <p>Beautiful tile-laying game with simple rules.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-xl-3">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h3 class="h5">Splendor</h3>
-                            <p>Fast-paced strategy game with elegant design.</p>
-                        </div>
-                    </div>
-                </div>
+                <div class="col-12 col-md-6 col-xl-3">game card</div>
+                <div class="col-12 col-md-6 col-xl-3">game card</div>
+                <div class="col-12 col-md-6 col-xl-3">game card</div>
+                <div class="col-12 col-md-6 col-xl-3">game card</div>
             </div>
         </section>
-
-        <section class="container py-4">
-            <h2 class="mb-4">Favourite Games</h2>
-            <div class="row g-4">
-                <div class="col-12 col-md-6 col-xl-3">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h3 class="h5">Pandemic</h3>
-                            <p>Co-op game where players work together to save the world.</p>
-                        </div>
-                    </div>
+        <!-- Favourite Games section -->
+        <section class="container">
+            <div class="row">
+                <div class="col-12">
+                    Favourite Games section heading
                 </div>
-                <div class="col-12 col-md-6 col-xl-3">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h3 class="h5">Carcassonne</h3>
-                            <p>Build landscapes and score points with clever placement.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-xl-3">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h3 class="h5">Wingspan</h3>
-                            <p>Bird-collecting strategy game with lovely artwork.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-xl-3">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h3 class="h5">Kingdomino</h3>
-                            <p>Easy strategy game ideal for quick rounds.</p>
-                        </div>
-                    </div>
-                </div>
+                <div class="col-12 col-md-6 col-xl-3">game card</div>
+                <div class="col-12 col-md-6 col-xl-3">game card</div>
+                <div class="col-12 col-md-6 col-xl-3">game card</div>
+                <div class="col-12 col-md-6 col-xl-3">game card</div>
             </div>
         </section>
     </main>
 
-    <footer class="mt-auto bg-dark text-white py-4">
+    <!-- footer / contact section -->
+    <!-- mt-auto added to push footer to the bottom of the page -->
+    <footer class="mt-auto">
         <div class="container">
-            <p class="mb-0">Visit us to try these games in person.</p>
+            <div class="row justify-content-center">
+                <div class="col-12">Contact section heading</div>
+                <!-- contact info -->
+                <div class="col-12 col-md-6 col-xl-4">Contact info & social links</div>
+                <!-- opening times -->
+                <div class="col-12 col-md-6 col-xl-4">Opening times</div>
+            </div>
         </div>
     </footer>
 
