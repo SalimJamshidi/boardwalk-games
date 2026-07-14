@@ -1,13 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&display=swap');
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Macondo&display=swap');
 
-/* css variables */
+/* CSS Variables */
 :root {
     --primary-font: "Inter", sans-serif;
     --secondary-font: "Macondo", cursive;
     --primary-color: #3a2620; /* dark brown */
-     --secondary-color: #aa9581; /* light brown */
+    --secondary-color: #aa9581; /* light brown */
     --highlight-color: #416a8e; /* blue */
-    --light-highlight-color: #7a9fc2; /* light blue */
+    --highlight-color-light: #7a9fc2; /* light blue */
 }
 
 
@@ -23,9 +24,18 @@ h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
 }
+
 .sub-heading-color {
     color: var(--highlight-color);
 }
+
+.section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+
 
 /* navbar */
 
@@ -34,6 +44,14 @@ h3 {
 }
 #navbar .logo {
     width: 30px;
+
+}
+
+/* header css */
+
+#header .lead {
+    font-family: var(--secondary-font);
+    
 }
 
 
