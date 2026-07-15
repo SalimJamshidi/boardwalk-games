@@ -89,3 +89,13 @@ h2 {
     border: 2px solid white;
     background-color: lightgrey;
 }
+
+/* media queries */
+
+/* medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+    /* make all the services cards same height for consistency */
+    #services .card-body {
+        min-height: 191px;
+    }
+}
