@@ -86,6 +86,8 @@ h2 {
 }
 
 /* footer / contact section */
+/* Footer / contact */
+
 #contact {
     background-color: var(--primary-color);
     color: white;
@@ -102,19 +104,24 @@ h2 {
 
 #contact i {
     color: var(--secondary-color);
-    font-size: 2rem;
+    font-size: 1.2rem;
     margin-right: 15px;
 }
 
 #contact .social-links i {
     color: var(--highlight-color-light);
-    font-size: 4rem;
+    font-size: 1.9rem;
     transition: color 0.3s ease-in-out;
 }
 
 #contact .social-links i:hover {
     color: var(--secondary-color);
 }
+
+#contact .table-dark * {
+    background-color: transparent;
+}
+
 
 
 /* grid visualisation css for testing */
