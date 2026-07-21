@@ -98,7 +98,7 @@ h2 {
 /* services */
 
 #services .card-footer {
-    font-weight: bodl;
+    font-weight: bold;
     color: var(--highlight-color);
     background-color: transparent;
 }
